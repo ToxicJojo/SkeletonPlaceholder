@@ -1,0 +1,14 @@
+.bone-text {
+  display: block;
+  margin: 10px;
+  color: transparent;
+
+  &:after {
+    // Insert some content so the block is displayed.
+    content: '.';
+  }
+
+  &.bone-rounded {
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,9 @@
+@import 'skeleton';
+
+// Only apply the bone styles when within an skeleton.
+.skeleton {
+  @import 'bone';
+  @import 'animation';
+  @import 'text'; 
+}
+

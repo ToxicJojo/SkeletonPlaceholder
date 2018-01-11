@@ -1,0 +1,12 @@
+.skeleton {
+}
+
+// Hide all elements within a skeleton.
+.skeleton * {
+  visibility: hidden;
+}
+
+// Only show the bones of the skeleton
+.skeleton .bone {
+  visibility: visible;
+}
