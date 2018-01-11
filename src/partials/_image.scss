@@ -1,0 +1,22 @@
+.bone-image {
+  display: inline-block;
+
+  &.bone-rounded {
+    border-radius: 25%;
+  }
+
+  &.bone-round {
+    border-radius: 50%;
+  }
+}
+
+@mixin size($name, $size) {
+  .bone-image.#{$name} {
+    width: $size;
+    height: $size;
+  }
+}
+
+@each $sizeName, $size in $imageSizes {
+  @include size($sizeName, $size);
+}
