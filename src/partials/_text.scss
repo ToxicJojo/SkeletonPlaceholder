@@ -1,14 +1,71 @@
+// Define the shared properties of the pseudo elements for the multiline text.
+%multilinePseudo {
+  height: $textBoneSize;
+  content: '';
+  display: block;
+  width: 100%;
+  position: relative;
+  background-color: inherit; 
+  border-radius: inherit;
+}
+
+
 .bone-text {
   display: block;
   margin: 10px;
   color: transparent;
-
-  &:after {
-    // Insert some content so the block is displayed.
-    content: '.';
-  }
+  height: $textBoneSize;
+  content: '';
 
   &.bone-rounded {
     border-radius: 10px;
+  }
+
+  &.bone-multiline {
+
+    &:before {
+      // Import the shared properties and set the position.
+      @extend %multilinePseudo;
+      top: 1.25em;
+    }
+
+    &:after {
+      // Import the shared properties and set the position.
+      @extend %multilinePseudo;
+      top: 1.75em;
+    }
+
+    //Different styles for the multiline text.
+
+    // The length of the bones gets evenly smaller.
+    &.bone-multiline-steps {
+      &:before {
+        width: 85%;
+      }
+
+      &:after   {
+        width: 70%;
+      }
+    }
+
+    // Only the last bone is smaller to represent the last line of a paragraph.
+    &.bone-multiline-paragraph {
+      &:after {
+        width: 70%;
+      }
+    }
+
+    // Mix the length of the bones.
+    &.bone-multiline-mixed {
+      width: 80%;
+
+      &:before {
+        width: 115%;
+      }
+
+      &:after {
+        width: 70%;
+      }
+    }
   }
 }
