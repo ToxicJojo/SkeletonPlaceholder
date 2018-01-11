@@ -1,10 +1,15 @@
-@mixin color($name, $color, $darkColor) {
+.bone {
+  // Set the default color.
+  background-color: map-get($colors, grey);
+}
+
+@mixin color($name, $color) {
   .bone.#{$name} {
     background-color: $color;
   }
 }
 
 @each $colorName, $color in $colors {
-  @include color($colorName, map-get($color, normal), map-get($color, dark));
+  @include color($colorName, $color);
 }
 
