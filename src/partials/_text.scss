@@ -12,10 +12,12 @@
 
 .bone-text {
   display: block;
-  margin: 10px;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
   color: transparent;
   height: $textBoneSize;
   content: '';
+  width: 100%;
 
   &.bone-rounded {
     border-radius: 10px;

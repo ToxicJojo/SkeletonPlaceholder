@@ -1,5 +1,9 @@
 @import 'skeleton';
 
+* {
+  box-sizing: border-box;
+}
+
 // Only apply the bone styles when within an skeleton.
 .skeleton {
   @import 'bone';
