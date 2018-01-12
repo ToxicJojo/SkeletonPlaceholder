@@ -17,7 +17,8 @@
   color: transparent;
   height: $textBoneSize;
   content: '';
-  width: 100%;
+  //width: 100%;
+  flex-grow: 1;
 
   &.bone-rounded {
     border-radius: 10px;
@@ -68,6 +69,20 @@
 
       &:after {
         width: 70%;
+      }
+    }
+
+    // Add a margin to the pseudo elements to create a list effect.
+    &.bone-multiline-list {
+
+      &:before {
+        margin-left: 10%;
+        width: 70%;
+      }
+
+      &:after {
+        margin-left: 10%;
+        width: 60%;
       }
     }
   }
