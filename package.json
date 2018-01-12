@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --config config/webpack.dev.js"
+    "dev": "webpack-dev-server --compress --config config/webpack.dev.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.8",
+    "docsify": "^4.5.7",
     "extract-text-webpack-plugin": "^3.0.2",
     "html-loader": "^0.5.4",
     "html-webpack-plugin": "^2.30.1",
