@@ -4,6 +4,7 @@
 // Hide all elements within a skeleton.
 .skeleton * {
   visibility: hidden;
+  box-sizing: border-box;
 }
 
 // Only show the bones of the skeleton
