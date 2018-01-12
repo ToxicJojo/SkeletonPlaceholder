@@ -12,8 +12,8 @@
 
 .bone-text {
   display: block;
-  margin-bottom: .5rem;
-  margin-top: .5rem;
+  margin-bottom: $textSpacing;
+  margin-top: $textSpacing;
   color: transparent;
   height: $textBoneSize;
   content: '';
@@ -24,18 +24,18 @@
   }
 
   &.bone-multiline {
-    margin-bottom: 3em;
+    margin-bottom: 3 * $textSpacing + 2 * $textBoneSize;
 
     &:before {
       // Import the shared properties and set the position.
       @extend %multilinePseudo;
-      top: 1.25em;
+      top: $textSpacing + $textBoneSize;
     }
 
     &:after {
       // Import the shared properties and set the position.
       @extend %multilinePseudo;
-      top: 1.75em;
+      top: 2 * $textSpacing + $textBoneSize;
     }
 
     //Different styles for the multiline text.
