@@ -1,5 +1,6 @@
 .bone-image {
   display: inline-block;
+  flex-shrink: 0;
 
   &.bone-rounded {
     border-radius: 25%;
