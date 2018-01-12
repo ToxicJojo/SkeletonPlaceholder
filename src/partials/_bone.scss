@@ -3,6 +3,10 @@
   background-color: map-get($colors, grey);
 }
 
+.bone * {
+  display: none;
+}
+
 @mixin color($name, $color) {
   .bone.#{$name} {
     background-color: $color;
