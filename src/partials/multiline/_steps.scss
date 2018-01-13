@@ -1,0 +1,10 @@
+// The length of the bones gets evenly smaller.
+&.bone-multiline-steps {
+  &:before {
+    width: 85%;
+  }
+
+  &:after   {
+    width: 70%;
+  }
+}

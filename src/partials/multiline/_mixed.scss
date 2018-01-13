@@ -1,0 +1,12 @@
+// Mix the length of the bones.
+&.bone-multiline-mixed {
+  width: 80%;
+
+  &:before {
+    width: 115%;
+  }
+
+  &:after {
+    width: 70%;
+  }
+}

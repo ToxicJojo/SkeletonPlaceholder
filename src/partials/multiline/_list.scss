@@ -1,0 +1,13 @@
+// Add a margin to the pseudo elements to create a list effect.
+&.bone-multiline-list {
+
+  &:before {
+    margin-left: 10%;
+    width: 70%;
+  }
+
+  &:after {
+    margin-left: 10%;
+    width: 60%;
+  }
+}

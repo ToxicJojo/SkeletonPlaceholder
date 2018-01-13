@@ -1,19 +1,18 @@
 .bone-text.bone-heading {
-  height: $headingBoneSize;
+  height: $headingSize;
 
   &.bone-has-subheading {
-    margin-bottom: $textSpacing + $headingBoneSize + $textBoneSize;
+    margin-bottom: $textSpacing + $headingSize + $textSize;
 
     &:before {
-      height: $textBoneSize;
+      height: $textSize;
       content: '';
       display: block;
       position: relative;
       background-color: inherit; 
       border-radius: inherit;
-      top: $textSpacing + $headingBoneSize;
+      top: $textSpacing + $headingSize;
       width: 50%;
     }
   }
-
 }

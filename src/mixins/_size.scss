@@ -1,0 +1,10 @@
+@mixin size() {
+  @each $sizeName, $size in $skeletonSizes {
+    $sizeName: $sizeName !global
+    $headingSize: map-get($size, headingSize) !global;
+    $textSize: map-get($size, textSize) !global;
+    $textSpacing: map-get($size, textSpacing) !global;
+
+    @content;
+  }
+}
