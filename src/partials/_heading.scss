@@ -16,3 +16,20 @@
     }
   }
 }
+
+@include size {
+  &.skeleton-#{$sizeName} {
+    .bone-text.bone-heading {
+      height: $headingSize;
+
+      &.bone-has-subheading {
+        margin-bottom: $textSpacing + $headingSize + $textSize;
+
+        &:before {
+          height: $textSize;
+          top: $textSpacing + $headingSize;
+        }
+      }
+    }
+  }
+}
