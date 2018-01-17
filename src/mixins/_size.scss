@@ -4,6 +4,7 @@
     $headingSize: map-get($size, headingSize) !global;
     $textSize: map-get($size, textSize) !global;
     $textSpacing: map-get($size, textSpacing) !global;
+    $imageSize: map-get($size, imageSize) !global;
 
     @content;
   }

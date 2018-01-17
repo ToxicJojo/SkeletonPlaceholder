@@ -1,6 +1,8 @@
 .bone-image {
   display: inline-block;
   flex-shrink: 0;
+  width: $imageSizeDefault;
+  height: $imageSizeDefault;
 
   &.bone-rounded {
     border-radius: 25%;
@@ -11,13 +13,11 @@
   }
 }
 
-@mixin size($name, $size) {
-  .bone-image.#{$name} {
-    width: $size;
-    height: $size;
+@include size {
+  &.skeleton-#{$sizeName} {
+    .bone-image {
+      height: $imageSize;
+      width: $imageSize;
+    }
   }
-}
-
-@each $sizeName, $size in $imageSizes {
-  @include size($sizeName, $size);
 }

@@ -11,10 +11,10 @@
 
 .bone-text {
   display: block;
-  margin-bottom: $textSpacing;
-  margin-top: $textSpacing;
+  margin-bottom: $textSpacingDefault;
+  margin-top: $textSpacingDefault;
   color: transparent;
-  height: $textSize;
+  height: $textSizeDefault;
   content: '';
   width: 100%;
   //flex-grow: 1;
@@ -24,18 +24,18 @@
   }
 
   &.bone-multiline {
-    margin-bottom: 3 * $textSpacing + 2 * $textSize;
+    margin-bottom: 3 * $textSpacingDefault + 2 * $textSizeDefault;
 
     &:before {
       // Import the shared properties and set the position.
       @extend %multilinePseudo;
-      top: $textSpacing + $textSize;
+      top: $textSpacingDefault + $textSizeDefault;
     }
 
     &:after {
       // Import the shared properties and set the position.
       @extend %multilinePseudo;
-      top: 2 * $textSpacing + $textSize;
+      top: 2 * $textSpacingDefault + $textSizeDefault;
     }
 
     //Different styles for the multiline text.

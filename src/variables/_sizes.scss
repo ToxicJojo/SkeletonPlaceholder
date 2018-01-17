@@ -6,25 +6,28 @@ $imageSizes: (
   x256: 256px,
 );
 
+$headingSizeDefault: 1em;
+$textSizeDefault: .75em;
+$textSpacingDefault: .5em;
+$imageSizeDefault: 48px;
 
 $skeletonSizes: (
   small: (
     headingSize: .75em,
     textSize: .5em,
     textSpacing: .25em,
+    imageSize: 32px,
   ),
   normal: (
     headingSize: 1em,
     textSize: .75em,
     textSpacing: .5em,
+    imageSize: 48px,
   ),
   big: (
     headingSize: 1.25em,
     textSize: 1em,
     textSpacing: .75em,
+    imageSize: 64px,
   ),
 );
-
-$headingSize: 1em;
-$textSize: .75em;
-$textSpacing: .5em;
