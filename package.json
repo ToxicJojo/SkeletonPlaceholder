@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --compress --config config/webpack.dev.js"
+    "dev": "webpack-dev-server --compress --config config/webpack.dev.js",
+    "docs": "webpack --watch --config config/webpack.doc.js",
   },
   "repository": {
     "type": "git",
