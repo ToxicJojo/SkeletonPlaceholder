@@ -11,16 +11,3 @@
 .skeleton .bone {
   visibility: visible;
 }
-
-// Allow to set the color of the bones for the whole skeleton.
-@mixin color($name, $color) {
-  .skeleton.#{$name} {
-    .bone {
-      background-color: $color;
-    }
-  }
-}
-
-@each $colorName, $color in $colors {
-  @include color($colorName, $color);
-}

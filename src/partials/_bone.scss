@@ -1,19 +1,24 @@
 .bone {
   // Set the default color.
   background-color: map-get($colors, grey);
+
+  &.width-half {
+    width: 50%;
+  }
+
+  &.width-quarter {
+    width: 25%;
+  }
 }
 
 .bone * {
   display: none;
 }
 
-@mixin color($name, $color) {
-  .bone.#{$name} {
-    background-color: $color;
+@include color {
+  &.skeleton-#{$colorName} {
+    .bone {
+      background-color: $color;
+    }
   }
 }
-
-@each $colorName, $color in $colors {
-  @include color($colorName, $color);
-}
-

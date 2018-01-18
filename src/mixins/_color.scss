@@ -1,0 +1,8 @@
+@mixin color() {
+  @each $colorName, $color in $colors {
+    $colorName: $colorName !global;
+    $color: $color !global;
+
+    @content;
+  }
+}
