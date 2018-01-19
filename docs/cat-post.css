@@ -1,0 +1,33 @@
+.post {
+  padding: 20px;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.12), 0 1px 6px 0 rgba(0,0,0,0.12);
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.post-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.subheader {
+  font-size: 12px;
+  opacity: .9;
+  margin-top: 2px;
+}
+
+.subtext {
+  font-size: 9px;
+}
+
+img.avatar {
+  height: 48px;
+  width: 48px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
