@@ -1,4 +1,4 @@
-.bone-heading {
+.bone-type-heading {
   @extend .bone-type-text;
   height: $headingSizeDefault;
 
@@ -20,7 +20,7 @@
 
 @include size {
   &.skeleton-#{$sizeName} {
-    .bone-heading {
+    .bone-type-heading {
       height: $headingSize;
 
       &.bone-has-subheading {
