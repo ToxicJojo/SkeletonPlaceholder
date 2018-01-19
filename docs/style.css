@@ -208,25 +208,25 @@
       height: 1em;
       top: 2em; }
 
-.skeleton .bone-image {
+.skeleton .bone-type-image {
   display: inline-block;
   flex-shrink: 0;
   width: 48px;
   height: 48px;
   content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gETDTggzL3OiAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAADUlEQVQI12P4//8/AwAI/AL+XJ/P2gAAAABJRU5ErkJggg==); }
-  .skeleton .bone-image.bone-rounded {
+  .skeleton .bone-type-image.bone-style-rounded {
     border-radius: 25%; }
-  .skeleton .bone-image.bone-round {
+  .skeleton .bone-type-image.bone-style-round {
     border-radius: 50%; }
 
-.skeleton.skeleton-small .bone-image {
+.skeleton.skeleton-small .bone-type-image {
   height: 32px;
   width: 32px; }
 
-.skeleton.skeleton-normal .bone-image {
+.skeleton.skeleton-normal .bone-type-image {
   height: 48px;
   width: 48px; }
 
-.skeleton.skeleton-big .bone-image {
+.skeleton.skeleton-big .bone-type-image {
   height: 64px;
   width: 64px; }
