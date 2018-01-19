@@ -98,7 +98,7 @@
   background-color: inherit;
   border-radius: inherit; }
 
-.skeleton .bone-text, .skeleton .bone-multiline, .skeleton .bone-heading {
+.skeleton .bone-type-text, .skeleton .bone-multiline, .skeleton .bone-heading {
   display: block;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
@@ -106,20 +106,20 @@
   height: 0.75em;
   content: '';
   width: 100%; }
-  .skeleton .bone-text.bone-rounded, .skeleton .bone-rounded.bone-multiline, .skeleton .bone-rounded.bone-heading {
+  .skeleton .bone-type-text.bone-style-rounded, .skeleton .bone-style-rounded.bone-multiline, .skeleton .bone-style-rounded.bone-heading {
     border-radius: 10px; }
 
-.skeleton.skeleton-small .bone-text, .skeleton.skeleton-small .bone-multiline, .skeleton.skeleton-small .bone-heading {
+.skeleton.skeleton-small .bone-type-text, .skeleton.skeleton-small .bone-multiline, .skeleton.skeleton-small .bone-heading {
   height: 0.5em;
   margin-bottom: 0.25em;
   margin-top: 0.25em; }
 
-.skeleton.skeleton-normal .bone-text, .skeleton.skeleton-normal .bone-multiline, .skeleton.skeleton-normal .bone-heading {
+.skeleton.skeleton-normal .bone-type-text, .skeleton.skeleton-normal .bone-multiline, .skeleton.skeleton-normal .bone-heading {
   height: 0.75em;
   margin-bottom: 0.5em;
   margin-top: 0.5em; }
 
-.skeleton.skeleton-big .bone-text, .skeleton.skeleton-big .bone-multiline, .skeleton.skeleton-big .bone-heading {
+.skeleton.skeleton-big .bone-type-text, .skeleton.skeleton-big .bone-multiline, .skeleton.skeleton-big .bone-heading {
   height: 1em;
   margin-bottom: 0.75em;
   margin-top: 0.75em; }

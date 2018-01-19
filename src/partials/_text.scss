@@ -9,7 +9,7 @@
   border-radius: inherit;
 }
 
-.bone-text {
+.bone-type-text {
   display: block;
   margin-bottom: $textSpacingDefault;
   margin-top: $textSpacingDefault;
@@ -19,7 +19,7 @@
   width: 100%;
   //flex-grow: 1;
 
-  &.bone-rounded {
+  &.bone-style-rounded {
     border-radius: 10px;
   }
 }
@@ -27,7 +27,7 @@
 
 @include size {
   &.skeleton-#{$sizeName} {
-    .bone-text {
+    .bone-type-text {
       height: $textSize;
       margin-bottom: $textSpacing;
       margin-top: $textSpacing;

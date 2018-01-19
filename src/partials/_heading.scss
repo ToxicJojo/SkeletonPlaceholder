@@ -1,5 +1,5 @@
 .bone-heading {
-  @extend .bone-text;
+  @extend .bone-type-text;
   height: $headingSizeDefault;
 
   &.bone-has-subheading {

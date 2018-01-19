@@ -1,5 +1,5 @@
 .bone-multiline {
-  @extend .bone-text;
+  @extend .bone-type-text;
 
   margin-bottom: 3 * $textSpacingDefault + 2 * $textSizeDefault;
 
