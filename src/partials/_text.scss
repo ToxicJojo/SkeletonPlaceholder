@@ -22,28 +22,6 @@
   &.bone-rounded {
     border-radius: 10px;
   }
-
-  &.bone-multiline {
-    margin-bottom: 3 * $textSpacingDefault + 2 * $textSizeDefault;
-
-    &:before {
-      // Import the shared properties and set the position.
-      @extend %multilinePseudo;
-      top: $textSpacingDefault + $textSizeDefault;
-    }
-
-    &:after {
-      // Import the shared properties and set the position.
-      @extend %multilinePseudo;
-      top: 2 * $textSpacingDefault + $textSizeDefault;
-    }
-
-    //Different styles for the multiline text.
-    @import 'multiline/steps';
-    @import 'multiline/paragraph';
-    @import 'multiline/mixed';
-    @import 'multiline/list';
-  }
 }
 
 
@@ -53,20 +31,6 @@
       height: $textSize;
       margin-bottom: $textSpacing;
       margin-top: $textSpacing;
-
-      &.bone-multiline {
-        margin-bottom: 3 * $textSpacing + 2 * $textSize;
-
-        &:before {
-          // Import the shared properties and set the position.
-          top: $textSpacing + $textSize;
-        }
-
-        &:after {
-          // Import the shared properties and set the position.
-          top: 2 * $textSpacing + $textSize;
-        }
-      }
     }
   }
 }
