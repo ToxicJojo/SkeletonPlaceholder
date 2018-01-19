@@ -1,4 +1,4 @@
-.bone-multiline {
+.bone-type-multiline {
   @extend .bone-type-text;
 
   margin-bottom: 3 * $textSpacingDefault + 2 * $textSizeDefault;
@@ -24,7 +24,7 @@
 
 @include size {
   &.skeleton-#{$sizeName} {
-    .bone-multiline {
+    .bone-type-multiline {
       margin-bottom: 3 * $textSpacing + 2 * $textSize;
 
       &:before {

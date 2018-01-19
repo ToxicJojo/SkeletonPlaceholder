@@ -89,7 +89,7 @@
 .skeleton.skeleton-asbestos .bone {
   background-color: #7f8c8d; }
 
-.skeleton .bone-multiline:before, .skeleton .bone-multiline:after {
+.skeleton .bone-type-multiline:before, .skeleton .bone-type-multiline:after {
   height: inherit;
   content: '';
   display: block;
@@ -98,7 +98,7 @@
   background-color: inherit;
   border-radius: inherit; }
 
-.skeleton .bone-type-text, .skeleton .bone-multiline, .skeleton .bone-type-heading {
+.skeleton .bone-type-text, .skeleton .bone-type-multiline, .skeleton .bone-type-heading {
   display: block;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
@@ -106,68 +106,68 @@
   height: 0.75em;
   content: '';
   width: 100%; }
-  .skeleton .bone-type-text.bone-style-rounded, .skeleton .bone-style-rounded.bone-multiline, .skeleton .bone-style-rounded.bone-type-heading {
+  .skeleton .bone-type-text.bone-style-rounded, .skeleton .bone-style-rounded.bone-type-multiline, .skeleton .bone-style-rounded.bone-type-heading {
     border-radius: 10px; }
 
-.skeleton.skeleton-small .bone-type-text, .skeleton.skeleton-small .bone-multiline, .skeleton.skeleton-small .bone-type-heading {
+.skeleton.skeleton-small .bone-type-text, .skeleton.skeleton-small .bone-type-multiline, .skeleton.skeleton-small .bone-type-heading {
   height: 0.5em;
   margin-bottom: 0.25em;
   margin-top: 0.25em; }
 
-.skeleton.skeleton-normal .bone-type-text, .skeleton.skeleton-normal .bone-multiline, .skeleton.skeleton-normal .bone-type-heading {
+.skeleton.skeleton-normal .bone-type-text, .skeleton.skeleton-normal .bone-type-multiline, .skeleton.skeleton-normal .bone-type-heading {
   height: 0.75em;
   margin-bottom: 0.5em;
   margin-top: 0.5em; }
 
-.skeleton.skeleton-big .bone-type-text, .skeleton.skeleton-big .bone-multiline, .skeleton.skeleton-big .bone-type-heading {
+.skeleton.skeleton-big .bone-type-text, .skeleton.skeleton-big .bone-type-multiline, .skeleton.skeleton-big .bone-type-heading {
   height: 1em;
   margin-bottom: 0.75em;
   margin-top: 0.75em; }
 
-.skeleton .bone-multiline {
+.skeleton .bone-type-multiline {
   margin-bottom: 3em; }
-  .skeleton .bone-multiline:before {
+  .skeleton .bone-type-multiline:before {
     top: 1.25em; }
-  .skeleton .bone-multiline:after {
+  .skeleton .bone-type-multiline:after {
     top: 1.75em; }
-  .skeleton .bone-multiline.bone-multiline-steps:before {
+  .skeleton .bone-type-multiline.bone-style-steps:before {
     width: 85%; }
-  .skeleton .bone-multiline.bone-multiline-steps:after {
+  .skeleton .bone-type-multiline.bone-style-steps:after {
     width: 70%; }
-  .skeleton .bone-multiline.bone-multiline-paragraph:after {
+  .skeleton .bone-type-multiline.bone-style-paragraph:after {
     width: 70%; }
-  .skeleton .bone-multiline.bone-multiline-mixed {
+  .skeleton .bone-type-multiline.bone-style-mixed {
     width: 80%; }
-    .skeleton .bone-multiline.bone-multiline-mixed:before {
+    .skeleton .bone-type-multiline.bone-style-mixed:before {
       width: 115%; }
-    .skeleton .bone-multiline.bone-multiline-mixed:after {
+    .skeleton .bone-type-multiline.bone-style-mixed:after {
       width: 70%; }
-  .skeleton .bone-multiline.bone-multiline-list:before {
+  .skeleton .bone-type-multiline.bone-style-list:before {
     margin-left: 10%;
     width: 70%; }
-  .skeleton .bone-multiline.bone-multiline-list:after {
+  .skeleton .bone-type-multiline.bone-style-list:after {
     margin-left: 10%;
     width: 60%; }
 
-.skeleton.skeleton-small .bone-multiline {
+.skeleton.skeleton-small .bone-type-multiline {
   margin-bottom: 1.75em; }
-  .skeleton.skeleton-small .bone-multiline:before {
+  .skeleton.skeleton-small .bone-type-multiline:before {
     top: 0.75em; }
-  .skeleton.skeleton-small .bone-multiline:after {
+  .skeleton.skeleton-small .bone-type-multiline:after {
     top: 1em; }
 
-.skeleton.skeleton-normal .bone-multiline {
+.skeleton.skeleton-normal .bone-type-multiline {
   margin-bottom: 3em; }
-  .skeleton.skeleton-normal .bone-multiline:before {
+  .skeleton.skeleton-normal .bone-type-multiline:before {
     top: 1.25em; }
-  .skeleton.skeleton-normal .bone-multiline:after {
+  .skeleton.skeleton-normal .bone-type-multiline:after {
     top: 1.75em; }
 
-.skeleton.skeleton-big .bone-multiline {
+.skeleton.skeleton-big .bone-type-multiline {
   margin-bottom: 4.25em; }
-  .skeleton.skeleton-big .bone-multiline:before {
+  .skeleton.skeleton-big .bone-type-multiline:before {
     top: 1.75em; }
-  .skeleton.skeleton-big .bone-multiline:after {
+  .skeleton.skeleton-big .bone-type-multiline:after {
     top: 2.5em; }
 
 .skeleton .bone-type-heading {
