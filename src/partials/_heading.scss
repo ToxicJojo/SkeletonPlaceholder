@@ -2,7 +2,7 @@
   @extend .bone-type-text;
   height: $headingSizeDefault;
 
-  &.bone-has-subheading {
+  &.bone-style-subheading {
     margin-bottom: $textSpacingDefault + $headingSizeDefault + $textSizeDefault;
 
     &:before {
@@ -23,7 +23,7 @@
     .bone-type-heading {
       height: $headingSize;
 
-      &.bone-has-subheading {
+      &.bone-style-subheading {
         margin-bottom: $textSpacing + $headingSize + $textSize;
 
         &:before {

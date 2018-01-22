@@ -11,13 +11,11 @@
 
 .bone-type-text {
   display: block;
+  color: transparent;
   margin-bottom: $textSpacingDefault;
   margin-top: $textSpacingDefault;
-  color: transparent;
   height: $textSizeDefault;
-  content: '';
   width: 100%;
-  //flex-grow: 1;
 
   &.bone-style-rounded {
     border-radius: 10px;
