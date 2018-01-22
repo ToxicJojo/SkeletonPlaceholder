@@ -13,7 +13,7 @@
   100% {
     opacity: 1; } }
 
-.skeleton-pulse .bone {
+.skeleton-animation-pulse .bone {
   animation: pulse 1.2s infinite ease-out; }
 
 .skeleton .bone {
@@ -26,67 +26,67 @@
 .skeleton .bone * {
   display: none; }
 
-.skeleton.skeleton-grey .bone {
+.skeleton.skeleton-color-grey .bone {
   background-color: #c9c9c9; }
 
-.skeleton.skeleton-turquoise .bone {
+.skeleton.skeleton-color-turquoise .bone {
   background-color: #1abc9c; }
 
-.skeleton.skeleton-emerald .bone {
+.skeleton.skeleton-color-emerald .bone {
   background-color: #2ecc71; }
 
-.skeleton.skeleton-peter-river .bone {
+.skeleton.skeleton-color-peter-river .bone {
   background-color: #3498db; }
 
-.skeleton.skeleton-amethyst .bone {
+.skeleton.skeleton-color-amethyst .bone {
   background-color: #9b59b6; }
 
-.skeleton.skeleton-wet-asphalt .bone {
+.skeleton.skeleton-color-wet-asphalt .bone {
   background-color: #34495e; }
 
-.skeleton.skeleton-green-sea .bone {
+.skeleton.skeleton-color-green-sea .bone {
   background-color: #16a085; }
 
-.skeleton.skeleton-nephritis .bone {
+.skeleton.skeleton-color-nephritis .bone {
   background-color: #27ae60; }
 
-.skeleton.skeleton-belize-hole .bone {
+.skeleton.skeleton-color-belize-hole .bone {
   background-color: #2980b9; }
 
-.skeleton.skeleton-wisteria .bone {
+.skeleton.skeleton-color-wisteria .bone {
   background-color: #8e44ad; }
 
-.skeleton.skeleton-midnight-blue .bone {
+.skeleton.skeleton-color-midnight-blue .bone {
   background-color: #2c3e50; }
 
-.skeleton.skeleton-sun-flower .bone {
+.skeleton.skeleton-color-sun-flower .bone {
   background-color: #f1c40f; }
 
-.skeleton.skeleton-carrot .bone {
+.skeleton.skeleton-color-carrot .bone {
   background-color: #e67e22; }
 
-.skeleton.skeleton-alizarin .bone {
+.skeleton.skeleton-color-alizarin .bone {
   background-color: #e74c3c; }
 
-.skeleton.skeleton-clouds .bone {
+.skeleton.skeleton-color-clouds .bone {
   background-color: #ecf0f1; }
 
-.skeleton.skeleton-concrete .bone {
+.skeleton.skeleton-color-concrete .bone {
   background-color: #95a5a6; }
 
-.skeleton.skeleton-orange .bone {
+.skeleton.skeleton-color-orange .bone {
   background-color: #f39c12; }
 
-.skeleton.skeleton-pumkin .bone {
+.skeleton.skeleton-color-pumkin .bone {
   background-color: #d35400; }
 
-.skeleton.skeleton-pomegranate .bone {
+.skeleton.skeleton-color-pomegranate .bone {
   background-color: #c0392b; }
 
-.skeleton.skeleton-silver .bone {
+.skeleton.skeleton-color-silver .bone {
   background-color: #bdc3c7; }
 
-.skeleton.skeleton-asbestos .bone {
+.skeleton.skeleton-color-asbestos .bone {
   background-color: #7f8c8d; }
 
 .skeleton .bone-type-multiline:before, .skeleton .bone-type-multiline:after {
@@ -100,11 +100,10 @@
 
 .skeleton .bone-type-text, .skeleton .bone-type-multiline, .skeleton .bone-type-heading {
   display: block;
+  color: transparent;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
-  color: transparent;
   height: 0.75em;
-  content: '';
   width: 100%; }
   .skeleton .bone-type-text.bone-style-rounded, .skeleton .bone-style-rounded.bone-type-multiline, .skeleton .bone-style-rounded.bone-type-heading {
     border-radius: 10px; }

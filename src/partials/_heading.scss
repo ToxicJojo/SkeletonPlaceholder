@@ -19,7 +19,7 @@
 }
 
 @include size {
-  &.skeleton-#{$sizeName} {
+  &.skeleton-size-#{$sizeName} {
     .bone-type-heading {
       height: $headingSize;
 

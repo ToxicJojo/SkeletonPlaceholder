@@ -24,7 +24,7 @@
 
 
 @include size {
-  &.skeleton-#{$sizeName} {
+  &.skeleton-size-#{$sizeName} {
     .bone-type-text {
       height: $textSize;
       margin-bottom: $textSpacing;

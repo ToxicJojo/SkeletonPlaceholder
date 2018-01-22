@@ -23,7 +23,7 @@
 }
 
 @include size {
-  &.skeleton-#{$sizeName} {
+  &.skeleton-size-#{$sizeName} {
     .bone-type-multiline {
       margin-bottom: 3 * $textSpacing + 2 * $textSize;
 
