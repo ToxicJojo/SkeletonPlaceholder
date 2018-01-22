@@ -138,7 +138,7 @@ As you can see the whole content disappeared. This is because the skeleton sets 
 
 ## Adding the bones
 
-Next we want to add the bones we need. First we want to create the bone for the image. Add the `bone` and `bone-image` classes to the `img` element.
+Next we want to add the bones we need. First we want to create the bone for the image. Add the `bone` and `bone-type-image` classes to the `img` element.
 
 
 ```html
@@ -146,7 +146,7 @@ Next we want to add the bones we need. First we want to create the bone for the 
 <template>
 <div class='post skeleton'>
   <div class='header'>
-    <img src='profile-pic.png' class='avatar bone bone-image'>
+    <img src='profile-pic.png' class='avatar bone bone-type-image'>
     <div class='post-info'>
       <div>
         <span>
@@ -172,15 +172,15 @@ Next we want to add the bones we need. First we want to create the bone for the 
 </script>
 ```
 
-To represent the post info we can use the heading bone. Add `bone`, `bone-text`, `bone-heading` and `bone-has-subheading` to the `div`
+To represent the post info we can use the heading bone. Add `bone`, `bone-type-heading` and `bone-style-subheading` to the `div`
 
 ```html
 /*vue*/
 <template>
 <div class='post skeleton'>
   <div class='header'>
-    <img src='profile-pic.png' class='avatar bone bone-image'>
-    <div class='post-info bone bone-text bone-heading bone-has-subheading'>
+    <img src='profile-pic.png' class='avatar bone bone-type-image'>
+    <div class='post-info bone bone-text bone-type-heading bone-style-subheading'>
       <div>
         <span>
           Lily
@@ -206,15 +206,15 @@ To represent the post info we can use the heading bone. Add `bone`, `bone-text`,
 ```
 
 
-You can create the text bone by adding the `bone` `bone-text` and `bone-multiline` classes to the `p`. If you want the text bone to look like a paragraph add `bone-multiline-paragraph`.
+You can create the text bone by adding the `bone`  and `bone-type-multiline` classes to the `p`. If you want the text bone to look like a paragraph add `bone-style-paragraph`.
 
 ```html
 /*vue*/
 <template>
 <div class='post skeleton'>
   <div class='header'>
-    <img src='profile-pic.png' class='avatar bone bone-image'>
-    <div class='post-info bone bone-text bone-heading bone-has-subheading'>
+    <img src='profile-pic.png' class='avatar bone bone-type-image'>
+    <div class='post-info bone bone-type-heading bone-style-subheading'>
       <div>
         <span>
           Lily
@@ -228,7 +228,7 @@ You can create the text bone by adding the `bone` `bone-text` and `bone-multilin
       </span>
     </div>
   </div>
-  <p class='bone bone-text bone-multiline bone-multiline-paragraph'>
+  <p class='bone bone-type-multiline bone-style--paragraph'>
   </p>
 </div>
 </template>
@@ -249,8 +249,8 @@ Currently the heading bone takes up all the space it can get. This does't really
 <template>
 <div class='post skeleton'>
   <div class='header'>
-    <img src='profile-pic.png' class='avatar bone bone-image'>
-    <div class='post-info bone bone-text bone-heading bone-has-subheading width-quarter'>
+    <img src='profile-pic.png' class='avatar bone bone-type-image'>
+    <div class='post-info bone bone-type-heading bone-style-subheading width-quarter'>
       <div>
         <span>
           Lily
@@ -264,7 +264,7 @@ Currently the heading bone takes up all the space it can get. This does't really
       </span>
     </div>
   </div>
-  <p class='bone bone-text bone-multiline bone-multiline-paragraph'>
+  <p class='bone bone-type-multiline bone-style-paragraph'>
   </p>
 </div>
 </template>
@@ -275,15 +275,15 @@ Currently the heading bone takes up all the space it can get. This does't really
 </script>
 ```
 
-To show that the content is loading we can add a loading animation. Add the class `skeleton-pulse` to the `skeleton` to show a pulsing loading animation.
+To show that the content is loading we can add a loading animation. Add the class `skeleton-animation-pulse` to the `skeleton` to show a pulsing loading animation.
 
 ```html
 /*vue*/
 <template>
-<div class='post skeleton skeleton-pulse'>
+<div class='post skeleton skeleton-animation-pulse'>
   <div class='header'>
-    <img src='profile-pic.png' class='avatar bone bone-image'>
-    <div class='post-info bone bone-text bone-heading bone-has-subheading width-quarter'>
+    <img src='profile-pic.png' class='avatar bone bone-type-image'>
+    <div class='post-info bone bone-type-heading bone-style-subheading width-quarter'>
       <div>
         <span>
           Lily
@@ -297,7 +297,7 @@ To show that the content is loading we can add a loading animation. Add the clas
       </span>
     </div>
   </div>
-  <p class='bone bone-text bone-multiline bone-multiline-paragraph'>
+  <p class='bone bone-type-multiline bone-style-paragraph'>
   </p>
 </div>
 </template>

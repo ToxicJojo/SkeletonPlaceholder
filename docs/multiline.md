@@ -4,11 +4,11 @@ The multiline bone serves as a placeholder for text content that is longer than 
 
 ## Overview
 
-The multiline bones are an extension of the text bone. To create a multiline bone add the `bone-multiline` class to a text bone.
+To create a multiline bone add the `bone-type-multiline` class to a bone.
 
 ```html
 <div class='skeleton'>
-  <div class='bone bone-text bone-multiline'></div>
+  <div class='bone bone-type-multiline'></div>
 </div>
 ```
 
@@ -17,7 +17,7 @@ The multiline bones are an extension of the text bone. To create a multiline bon
 <template>
     <div>
       <div class='skeleton'>
-        <div class='bone bone-text bone-multiline'></div>
+        <div class='bone bone-type-multiline'></div>
       <div>
     </div>
 </template>
@@ -33,11 +33,11 @@ There are different styles of multiline bones avaiable depending on the content 
 
 ## Paragraph
 
-To represent text that is a paragraph add the class `bone-multiline-paragraph`.
+To represent text that is a paragraph add the class `bone-style-paragraph`.
 
 ```html
 <div class='skeleton'>
-  <div class='bone bone-text bone-multiline bone-multiline-paragraph'></div>
+  <div class='bone bone-type-multiline bone-style-paragraph'></div>
 </div>
 ```
 
@@ -46,7 +46,7 @@ To represent text that is a paragraph add the class `bone-multiline-paragraph`.
 <template>
     <div>
       <div class='skeleton'>
-        <div class='bone bone-text bone-multiline bone-multiline-paragraph'></div>
+        <div class='bone bone-type-multiline bone-style-paragraph'></div>
       <div>
     </div>
 </template>
@@ -59,10 +59,11 @@ To represent text that is a paragraph add the class `bone-multiline-paragraph`.
 
 ## Steps
 
+To represent text that gets shorter with each line add the `bone-style-steps` class.
 
 ```html
 <div class='skeleton'>
-  <div class='bone bone-text bone-multiline bone-multiline-steps'></div>
+  <div class='bone bone-type-multiline bone-style-steps'></div>
 </div>
 ```
 
@@ -71,7 +72,7 @@ To represent text that is a paragraph add the class `bone-multiline-paragraph`.
 <template>
     <div>
       <div class='skeleton'>
-        <div class='bone bone-text bone-multiline bone-multiline-steps'></div>
+        <div class='bone bone-type-multiline bone-style-steps'></div>
       <div>
     </div>
 </template>
@@ -84,11 +85,11 @@ To represent text that is a paragraph add the class `bone-multiline-paragraph`.
 
 ## Mixed
 
-To represent text with mixed line sizes add the `bone-multiline-mixed` class.
+To represent text with mixed line sizes add the `bone-style-mixed` class.
 
 ```html
 <div class='skeleton'>
-  <div class='bone bone-text bone-multiline bone-multiline-mixed'></div>
+  <div class='bone bone-type-multiline bone-style-mixed'></div>
 </div>
 ```
 
@@ -97,7 +98,7 @@ To represent text with mixed line sizes add the `bone-multiline-mixed` class.
 <template>
     <div>
       <div class='skeleton'>
-        <div class='bone bone-text bone-multiline bone-multiline-mixed'></div>
+        <div class='bone bone-type-multiline bone-style-mixed'></div>
       <div>
     </div>
 </template>
@@ -110,11 +111,11 @@ To represent text with mixed line sizes add the `bone-multiline-mixed` class.
 
 ## List
 
-To represent a list add the `bone-multiline-list` class.
+To represent a list add the `bone-style-list` class.
 
 ```html
 <div class='skeleton'>
-  <div class='bone bone-text bone-multiline bone-multiline-list'></div>
+  <div class='bone bone-type-multiline bone-style-list'></div>
 </div>
 ```
 
@@ -123,7 +124,7 @@ To represent a list add the `bone-multiline-list` class.
 <template>
     <div>
       <div class='skeleton'>
-        <div class='bone bone-text bone-multiline bone-multiline-list'></div>
+        <div class='bone bone-type-multiline bone-style-list'></div>
       <div>
     </div>
 </template>

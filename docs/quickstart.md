@@ -17,7 +17,7 @@ The skeleton above is currently empty. Lets create a bone to fill it.
 
 ```html
 <div class='skeleton'>
-  <div class='bone bone-text'></div>
+  <div class='bone bone-type-text'></div>
 </div>
 ```
 
@@ -26,7 +26,7 @@ The skeleton above is currently empty. Lets create a bone to fill it.
 <template>
     <div>
       <div class='skeleton'>
-        <div class='bone bone-text'></div>
+        <div class='bone bone-type-text'></div>
       <div>
     </div>
 </template>
@@ -37,11 +37,11 @@ The skeleton above is currently empty. Lets create a bone to fill it.
 </script>
 ```
 
-The `bone-text` bone represents a single line of text. There are many different bone types. We can represent multiple lines of text by adding the `bone-multiline` class.
+The `bone-type-text` bone represents a single line of text. There are many different bone types. We can represent multiple lines of text by using the `bone-type-multiline` class.
 
 ```html
 <div class='skeleton'>
-  <div class='bone bone-text bone-multiline'></div>
+  <div class='bone bone-type-multiline'></div>
 </div>
 ```
 
@@ -50,7 +50,7 @@ The `bone-text` bone represents a single line of text. There are many different 
 <template>
     <div>
       <div class='skeleton'>
-        <div class='bone bone-text bone-multiline'></div>
+        <div class='bone bone-type-multiline'></div>
       <div>
     </div>
 </template>

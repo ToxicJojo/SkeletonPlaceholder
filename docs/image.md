@@ -4,11 +4,11 @@ An image bone can be used to represent a image or other types of media like a vi
 
 ## Overview
 
-To create an image bone add the `bone-image` class to a bone. The image size will be based of the skeleton size. Alternatively you can manually set the image size in your css.
+To create an image bone add the `bone-type-image` class to a bone. The image size will be based of the skeleton size. Alternatively you can manually set the image size in your css.
 
 ```html
 <div class='skeleton'>
-  <div class='bone bone-image'></div>
+  <div class='bone bone-type-image'></div>
 </div>
 ```
 
@@ -17,7 +17,7 @@ To create an image bone add the `bone-image` class to a bone. The image size wil
 <template>
     <div>
       <div class='skeleton'>
-        <div class='bone bone-image'></div>
+        <div class='bone bone-type-image'></div>
       <div>
     </div>
 </template>
@@ -33,18 +33,18 @@ To create an image bone add the `bone-image` class to a bone. The image size wil
 Thre are three different styles of image avaiable.
 
 - Square - default
-- Rounded - `bone-rounded`
-- Round - `bone-round`
+- Rounded - `bone-style-rounded`
+- Round - `bone-style-round`
 
-Adding the `bone-rounded` or `bone-round` class will make change the image bone style.
+Adding the `bone-style-rounded` or `bone-style-round` class will change the image bone style.
 
 
 
 ```html
 <div class='skeleton'>
-  <div class='bone bone-image'></div>
-  <div class='bone bone-image bone-rounded'></div>
-  <div class='bone bone-image bone-round'></div>
+  <div class='bone bone-type-image'></div>
+  <div class='bone bone-type-image bone-style-rounded'></div>
+  <div class='bone bone-type-image bone-style-round'></div>
 </div>
 ```
 
@@ -53,9 +53,9 @@ Adding the `bone-rounded` or `bone-round` class will make change the image bone 
 <template>
     <div>
       <div class='skeleton'>
-        <div class='bone bone-image'></div>
-        <div class='bone bone-image bone-rounded'></div>
-        <div class='bone bone-image bone-round'></div>
+        <div class='bone bone-type-image'></div>
+        <div class='bone bone-type-image bone-style-rounded'></div>
+        <div class='bone bone-type-image bone-style-round'></div>
       <div>
     </div>
 </template>

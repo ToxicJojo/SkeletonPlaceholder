@@ -4,11 +4,11 @@ A heading bone can be used to represent some sort of heading in your content.
 
 ## Overview
 
-The heading bone is an extension of the text bone. To create a heading bone add the class `bone-heading` to a text bone. A heading is bigger than the normal text.
+To create a heading bone add the class `bone-type-heading` to a bone. A heading is bigger than normal text.
 
 ```html
 <div class='skeleton'>
-  <div class='bone bone-text bone-heading'></div>
+  <div class='bone bone-type-heading'></div>
 </div>
 ```
 
@@ -17,7 +17,7 @@ The heading bone is an extension of the text bone. To create a heading bone add 
 <template>
     <div>
       <div class='skeleton'>
-        <div class='bone bone-text bone-heading'></div>
+        <div class='bone bone-type-heading'></div>
       <div>
     </div>
 </template>
@@ -30,11 +30,11 @@ The heading bone is an extension of the text bone. To create a heading bone add 
 
 ## Subheading
 
-You can add a subheading to the heading bone. Simply add the class `bone-has-subheading`. The subheading will be shown below the heading and has the normal text size. The subheading is half the width of the heading.
+You can add a subheading to the heading bone. Simply add the class `bone-style-subheading`. The subheading will be shown below the heading and has the normal text size. The subheading is half the width of the heading.
 
 ```html
 <div class='skeleton'>
-  <div class='bone bone-text bone-heading bone-has-subheading'></div>
+  <div class='bone bone-type-heading bone-style-subheading'></div>
 </div>
 ```
 
@@ -43,7 +43,7 @@ You can add a subheading to the heading bone. Simply add the class `bone-has-sub
 <template>
     <div>
       <div class='skeleton'>
-        <div class='bone bone-text bone-heading bone-has-subheading'></div>
+        <div class='bone bone-type-heading bone-style-subheading'></div>
       <div>
     </div>
 </template>

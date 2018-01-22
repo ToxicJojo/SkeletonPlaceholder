@@ -7,19 +7,19 @@ A bone represents a single element in a skeleton placeholder. To create a bone a
 
 ## Types
 
-Adding just the `bone` class won't display anything. You will need to add some type to the bone like `bone-text`. The types avaiable are:
+Adding just the `bone` class won't display anything. You will need to add some type to the bone like `bone-type-text`. The types avaiable are:
 
-- `bone-text` A single line of text [learn more](/text.md)
-- `bone-multiline` Multiple lines of text [learn more](/multiline.md)
-- `bone-heading` A heading [learn more](/heading.md)
-- `bone-image` Images or other media content [learn more](/image.md)
+- `bone-type-text` A single line of text [learn more](/text.md)
+- `bone-type-multiline` Multiple lines of text [learn more](/multiline.md)
+- `bone-type-heading` A heading [learn more](/heading.md)
+- `bone-type-image` Images or other media content [learn more](/image.md)
 
 ```html
 <div class='skeleton'>
-  <div class='bone bone-text'></div>
-  <div class='bone bone-text bone-multiline'></div>
-  <div class='bone bone-text bone-heading'></div>
-  <div class='bone bone-text bone-image'></div>
+  <div class='bone bone-type-text'></div>
+  <div class='bone bone-type-multiline'></div>
+  <div class='bone bone-type-heading'></div>
+  <div class='bone bone-type-image'></div>
 </div>
 ```
 
@@ -28,13 +28,13 @@ Adding just the `bone` class won't display anything. You will need to add some t
 <template>
     <div>
       <div class='skeleton'>
-        <div class='bone bone-text'></div>
+        <div class='bone bone-type-text'></div>
         <br>
-        <div class='bone bone-text bone-multiline bone-multiline-paragraph'></div>
+        <div class='bone bone-type-multiline bone-style-paragraph'></div>
         <br>
-        <div class='bone bone-text bone-heading bone-has-subheading'></div>
+        <div class='bone bone-type-heading bone-style-subheading'></div>
         <br>
-        <div class='bone bone-text bone-image'></div>
+        <div class='bone bone-type-image'></div>
       <div>
     </div>
 </template>

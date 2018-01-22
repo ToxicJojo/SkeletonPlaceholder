@@ -19,21 +19,21 @@ Removing `skeleton` from the container will remove all style added by the bones.
 
 To change the sizes of the bones within a skeleton there are three different sizes for the skeleton. To change the size add one of these classes to the skeleton.
 
-- `skeleton-small`
-- `skeleton-normal` (this is the default size)
-- `skeleton-big`
+- `skeleton-size-small`
+- `skeleton-size-normal` (this is the default size)
+- `skeleton-size-big`
 
 ```html
-<div class='skeleton skeleton-small'>
-  <div class='bone bone-text bone-multiline'></div>
+<div class='skeleton skeleton-size-small'>
+  <div class='bone bone-type-multiline'></div>
 </div>
 
-<div class='skeleton skeleton-normal'>
-  <div class='bone bone-text bone-multiline'></div>
+<div class='skeleton skeleton-size-normal'>
+  <div class='bone bone-type-multiline'></div>
 </div>
 
-<div class='skeleton skeleton-big'>
-  <div class='bone bone-text bone-multiline'></div>
+<div class='skeleton skeleton-size-big'>
+  <div class='bone bone-type-multiline'></div>
 </div>
 ```
 
@@ -41,16 +41,16 @@ To change the sizes of the bones within a skeleton there are three different siz
 /*vue*/
 <template>
     <div>
-      <div class='skeleton skeleton-small'>
-        <div class='bone bone-text bone-multiline'></div>
+      <div class='skeleton skeleton-size-small'>
+        <div class='bone bone-type-multiline'></div>
       </div>
       <br>
-      <div class='skeleton skeleton-normal'>
-        <div class='bone bone-text bone-multiline'></div>
+      <div class='skeleton skeleton-size-normal'>
+        <div class='bone bone-type-multiline'></div>
       </div>
       <br>
-      <div class='skeleton skeleton-big'>
-        <div class='bone bone-text bone-multiline'></div>
+      <div class='skeleton skeleton-size-big'>
+        <div class='bone bone-type-multiline'></div>
       </div>
     </div>
 </template>
@@ -63,11 +63,11 @@ To change the sizes of the bones within a skeleton there are three different siz
 
 ## Color
 
-You can change the color of the bones within a skeleton. Add the `skeleton-{color}` class to the skeleton. The avaiable colors can be found [here](https://flatuicolors.com/). For example you could create a green skeleton using `skeleton-nephritis`.
+You can change the color of the bones within a skeleton. Add the `skeleton-color-{color}` class to the skeleton. The avaiable colors can be found [here](https://flatuicolors.com/). For example you could create a green skeleton using `skeleton-color-nephritis`.
 
 ```html
-<div class='skeleton skeleton-nephritis'>
-  <div class='bone bone-text bone-multiline'></div>
+<div class='skeleton skeleton-color-nephritis'>
+  <div class='bone bone-type-multiline'></div>
 </div>
 ```
 
@@ -75,8 +75,8 @@ You can change the color of the bones within a skeleton. Add the `skeleton-{colo
 /*vue*/
 <template>
     <div>
-      <div class='skeleton skeleton-nephritis'>
-        <div class='bone bone-text bone-multiline'></div>
+      <div class='skeleton skeleton-color-nephritis'>
+        <div class='bone bone-type-multiline'></div>
       <div>
     </div>
 </template>
@@ -90,12 +90,12 @@ You can change the color of the bones within a skeleton. Add the `skeleton-{colo
 
 ## Animation
 
-The skeleton supports animation to indicate the loading of data. Add the class `skeleton-pulse` to create a pulsing skeleton.
+The skeleton supports animation to indicate the loading of data. Add the class `skeleton-animation-pulse` to create a pulsing skeleton.
 
 
 ```html
-<div class='skeleton skeleton-pulse'>
-  <div class='bone bone-text bone-multiline'></div>
+<div class='skeleton skeleton-animation-pulse'>
+  <div class='bone bone-type-multiline'></div>
 </div>
 ```
 
@@ -103,8 +103,8 @@ The skeleton supports animation to indicate the loading of data. Add the class `
 /*vue*/
 <template>
     <div>
-      <div class='skeleton skeleton-pulse'>
-        <div class='bone bone-text bone-multiline'></div>
+      <div class='skeleton skeleton-animation-pulse'>
+        <div class='bone bone-type-multiline'></div>
       </div>
     </div>
 </template>

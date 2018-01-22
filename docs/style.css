@@ -108,17 +108,17 @@
   .skeleton .bone-type-text.bone-style-rounded, .skeleton .bone-style-rounded.bone-type-multiline, .skeleton .bone-style-rounded.bone-type-heading {
     border-radius: 10px; }
 
-.skeleton.skeleton-small .bone-type-text, .skeleton.skeleton-small .bone-type-multiline, .skeleton.skeleton-small .bone-type-heading {
+.skeleton.skeleton-size-small .bone-type-text, .skeleton.skeleton-size-small .bone-type-multiline, .skeleton.skeleton-size-small .bone-type-heading {
   height: 0.5em;
   margin-bottom: 0.25em;
   margin-top: 0.25em; }
 
-.skeleton.skeleton-normal .bone-type-text, .skeleton.skeleton-normal .bone-type-multiline, .skeleton.skeleton-normal .bone-type-heading {
+.skeleton.skeleton-size-normal .bone-type-text, .skeleton.skeleton-size-normal .bone-type-multiline, .skeleton.skeleton-size-normal .bone-type-heading {
   height: 0.75em;
   margin-bottom: 0.5em;
   margin-top: 0.5em; }
 
-.skeleton.skeleton-big .bone-type-text, .skeleton.skeleton-big .bone-type-multiline, .skeleton.skeleton-big .bone-type-heading {
+.skeleton.skeleton-size-big .bone-type-text, .skeleton.skeleton-size-big .bone-type-multiline, .skeleton.skeleton-size-big .bone-type-heading {
   height: 1em;
   margin-bottom: 0.75em;
   margin-top: 0.75em; }
@@ -148,25 +148,25 @@
     margin-left: 10%;
     width: 60%; }
 
-.skeleton.skeleton-small .bone-type-multiline {
+.skeleton.skeleton-size-small .bone-type-multiline {
   margin-bottom: 1.75em; }
-  .skeleton.skeleton-small .bone-type-multiline:before {
+  .skeleton.skeleton-size-small .bone-type-multiline:before {
     top: 0.75em; }
-  .skeleton.skeleton-small .bone-type-multiline:after {
+  .skeleton.skeleton-size-small .bone-type-multiline:after {
     top: 1em; }
 
-.skeleton.skeleton-normal .bone-type-multiline {
+.skeleton.skeleton-size-normal .bone-type-multiline {
   margin-bottom: 3em; }
-  .skeleton.skeleton-normal .bone-type-multiline:before {
+  .skeleton.skeleton-size-normal .bone-type-multiline:before {
     top: 1.25em; }
-  .skeleton.skeleton-normal .bone-type-multiline:after {
+  .skeleton.skeleton-size-normal .bone-type-multiline:after {
     top: 1.75em; }
 
-.skeleton.skeleton-big .bone-type-multiline {
+.skeleton.skeleton-size-big .bone-type-multiline {
   margin-bottom: 4.25em; }
-  .skeleton.skeleton-big .bone-type-multiline:before {
+  .skeleton.skeleton-size-big .bone-type-multiline:before {
     top: 1.75em; }
-  .skeleton.skeleton-big .bone-type-multiline:after {
+  .skeleton.skeleton-size-big .bone-type-multiline:after {
     top: 2.5em; }
 
 .skeleton .bone-type-heading {
@@ -183,27 +183,27 @@
       top: 1.5em;
       width: 50%; }
 
-.skeleton.skeleton-small .bone-type-heading {
+.skeleton.skeleton-size-small .bone-type-heading {
   height: 0.75em; }
-  .skeleton.skeleton-small .bone-type-heading.bone-style-subheading {
+  .skeleton.skeleton-size-small .bone-type-heading.bone-style-subheading {
     margin-bottom: 1.5em; }
-    .skeleton.skeleton-small .bone-type-heading.bone-style-subheading:before {
+    .skeleton.skeleton-size-small .bone-type-heading.bone-style-subheading:before {
       height: 0.5em;
       top: 1em; }
 
-.skeleton.skeleton-normal .bone-type-heading {
+.skeleton.skeleton-size-normal .bone-type-heading {
   height: 1em; }
-  .skeleton.skeleton-normal .bone-type-heading.bone-style-subheading {
+  .skeleton.skeleton-size-normal .bone-type-heading.bone-style-subheading {
     margin-bottom: 2.25em; }
-    .skeleton.skeleton-normal .bone-type-heading.bone-style-subheading:before {
+    .skeleton.skeleton-size-normal .bone-type-heading.bone-style-subheading:before {
       height: 0.75em;
       top: 1.5em; }
 
-.skeleton.skeleton-big .bone-type-heading {
+.skeleton.skeleton-size-big .bone-type-heading {
   height: 1.25em; }
-  .skeleton.skeleton-big .bone-type-heading.bone-style-subheading {
+  .skeleton.skeleton-size-big .bone-type-heading.bone-style-subheading {
     margin-bottom: 3em; }
-    .skeleton.skeleton-big .bone-type-heading.bone-style-subheading:before {
+    .skeleton.skeleton-size-big .bone-type-heading.bone-style-subheading:before {
       height: 1em;
       top: 2em; }
 
@@ -218,14 +218,14 @@
   .skeleton .bone-type-image.bone-style-round {
     border-radius: 50%; }
 
-.skeleton.skeleton-small .bone-type-image {
+.skeleton.skeleton-size-small .bone-type-image {
   height: 32px;
   width: 32px; }
 
-.skeleton.skeleton-normal .bone-type-image {
+.skeleton.skeleton-size-normal .bone-type-image {
   height: 48px;
   width: 48px; }
 
-.skeleton.skeleton-big .bone-type-image {
+.skeleton.skeleton-size-big .bone-type-image {
   height: 64px;
   width: 64px; }
