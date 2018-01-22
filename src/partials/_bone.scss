@@ -16,7 +16,7 @@
 }
 
 @include color {
-  &.skeleton-#{$colorName} {
+  &.skeleton-color-#{$colorName} {
     .bone {
       background-color: $color;
     }
