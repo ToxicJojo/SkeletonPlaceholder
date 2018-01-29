@@ -1,4 +1,4 @@
-# BoneCss
+# Skeleton Placeholder
 
 A small CSS library to help you build skeleton placeholders. Allows you to keep using your existing layout and turn them into skeletons.
 
