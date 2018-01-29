@@ -22,7 +22,7 @@ The first thing you want to do is create a skeleton wrapper. With some bones in 
 </div>
 ```
 
-You can find the full documentation [here](https://toxicjojo.github.io/BoneCss/#/)
+You can find the full documentation [here](https://toxicjojo.github.io/SkeletonPlaceholder/#/)
 
 ## Installation
 
