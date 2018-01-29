@@ -1,15 +1,15 @@
 # Installing
 
-There are different methods to get BoneCss. Choose the one that fits your development setup best.
+There are different methods to get Skeleton Placeholder. Choose the one that fits your development setup best.
 
 ###### NPM
 
 ```bash
-npm i -D bone-css
+npm i -D skeletonp-placeholder
 ```
 
 ##### CDN
 
 ```html
-<script src='https://toxicjojo.github.io/BoneCss/style.css'>
+<script src=''>
 ```

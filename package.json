@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ToxicJojo/BoneCss.git"
+    "url": "git+https://github.com/ToxicJojo/SkeletonPlaceholder.git"
   },
   "keywords": [],
   "author": "Johannes Thiel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ToxicJojo/BoneCss/issues"
+    "url": "https://github.com/ToxicJojo/SkeletonPlaceholder/issues"
   },
-  "homepage": "https://github.com/ToxicJojo/BoneCss#readme",
+  "homepage": "https://github.com/ToxicJojo/SkeletonPlaceholder#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.8",

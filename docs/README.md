@@ -1,3 +1,3 @@
-# BoneCss
+# Skeleton Placeholder
 
 
