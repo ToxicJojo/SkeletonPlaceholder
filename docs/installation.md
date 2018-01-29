@@ -11,5 +11,5 @@ npm i -D skeleton-placeholder
 ##### CDN
 
 ```html
-<script src=''>
+<link rel='stylesheet' href='https://unpkg.com/skeleton-placeholder'>
 ```

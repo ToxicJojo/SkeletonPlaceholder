@@ -11,7 +11,7 @@ A small CSS library to help you build skeleton placeholders. Allows you to keep 
 To get started you can include the minified css file from the CDN
 
 ```html
-<link href='bone.min.css'>
+<link rel='stylesheet' href='https://unpkg.com/skeleton-placeholder'>
 ```
 
 The first thing you want to do is create a skeleton wrapper. With some bones in it.
@@ -31,7 +31,7 @@ You can find the full documentation [here](https://toxicjojo.github.io/BoneCss/#
 You can install the package from npm with
 
 ```
-npm i -D {package-name}
+npm i -D skeleton-placeholder
 ```
 
 ### CDN
@@ -39,7 +39,7 @@ npm i -D {package-name}
 Use our CDN to get the minified css
 
 ```html
-<link href='bone.min.css'>
+<link rel='stylesheet' href='https://unpkg.com/skeleton-placeholder'>
 ```
 
 ## Demo
