@@ -20,4 +20,3 @@
 - Development
   - [Setup](setup.md)
 
-- [Changelog](changelog.md)
