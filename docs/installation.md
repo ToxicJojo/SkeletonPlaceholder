@@ -5,7 +5,7 @@ There are different methods to get Skeleton Placeholder. Choose the one that fit
 ###### NPM
 
 ```bash
-npm i -D skeletonp-placeholder
+npm i -D skeleton-placeholder
 ```
 
 ##### CDN

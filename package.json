@@ -1,8 +1,8 @@
 {
   "name": "skeleton-placeholder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A css library to help you build skeleton placeholder",
-  "main": "index.js",
+  "main": "dist/bone.min.css",
   "directories": {
   },
   "files": [
