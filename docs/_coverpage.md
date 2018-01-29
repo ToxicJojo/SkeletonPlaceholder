@@ -3,7 +3,7 @@
 
 > A small css library to build skeleton placeholders.
 
-- Simple and lightweight (~1.6kB gzipped)
+- Simple and lightweight (<2kB gzipped)
 - Keep your existing layouts
 - Customizable look and feel (colors, animation, ...)
 

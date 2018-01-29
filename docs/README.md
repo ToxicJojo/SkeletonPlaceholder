@@ -9,7 +9,7 @@ To get started using Skeleton Placeholder take a look [here](quickstart).
 ### Features
 
 - Build skeleton placeholders
-- Lightweight (~1.6KB gzipped)
+- Lightweight (<2KB gzipped)
 - Use the same layout for the placeholder and the actual content
 - Multiple color schemes
 - Animation support
