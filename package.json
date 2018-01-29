@@ -1,22 +1,25 @@
 {
-  "name": "BoneCss",
-  "version": "1.0.0",
-  "description": "",
+  "name": "skeleton-placeholder",
+  "version": "0.1.0",
+  "description": "A css library to help you build skeleton placeholder",
   "main": "index.js",
   "directories": {
-    "example": "examples"
   },
+  "files": [
+    "dist/bone.min.css"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --compress --config config/webpack.dev.js",
-    "docs": "docsify serve ./docs & webpack --watch --config config/webpack.doc.js"
+    "docs": "docsify serve ./docs & webpack --watch --config config/webpack.doc.js",
+    "prepublish": "webpack --config config/webpack.prod.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ToxicJojo/BoneCss.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Johannes Thiel",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ToxicJojo/BoneCss/issues"

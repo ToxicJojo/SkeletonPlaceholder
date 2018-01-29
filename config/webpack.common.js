@@ -32,6 +32,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'index.pug',
     }),
-    new ExtractTextPlugin('style.css'),
+    new ExtractTextPlugin('bone.min.css'),
   ],
 }
