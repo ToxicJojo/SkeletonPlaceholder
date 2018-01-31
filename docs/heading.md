@@ -53,3 +53,29 @@ You can add a subheading to the heading bone. Simply add the class `bone-style-s
     }
 </script>
 ```
+
+## Styling
+
+By default the heading bone is square. If you want a rounded bone instead add the class `bone-style-rounded` to the heading bone.
+
+```html
+<div class='skeleton'>
+  <div class='bone bone-type-heading bone-style-subheading bone-style-rounded'></div>
+</div>
+```
+
+```html
+/*vue*/
+<template>
+    <div>
+      <div class='skeleton'>
+        <div class='bone bone-type-heading bone-style-subheading bone-style-rounded'></div>
+      <div>
+    </div>
+</template>
+
+<script>
+    export default {
+    }
+</script>
+```

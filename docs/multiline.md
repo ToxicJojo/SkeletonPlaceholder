@@ -135,3 +135,28 @@ To represent a list add the `bone-style-list` class.
 </script>
 ```
 
+## Styling
+By default the multiline bone is square. If you want a rounded bone instead add the class `bone-style-rounded` to the multiline bone.
+
+
+```html
+<div class='skeleton'>
+  <div class='bone bone-type-multiline bone-style-rounded'></div>
+</div>
+```
+
+```html
+/*vue*/
+<template>
+    <div>
+      <div class='skeleton'>
+        <div class='bone bone-type-multiline bone-style-rounded'></div>
+      <div>
+    </div>
+</template>
+
+<script>
+    export default {
+    }
+</script>
+```
