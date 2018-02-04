@@ -4,4 +4,27 @@ One way to build a placeholder UI is to built it from scratch. In most cases you
 
 ## Elements
 
-Let's start by figuring out which elements we need for the placeholder. 
+Let's start by figuring out which elements we need for the placeholder. A post would show the profile picture of the cat that created the post. For this we can use an image bone.
+
+
+```html
+<div class='skeleton'>
+  <div class='bone bone-type-image'></div>
+</div>
+```
+
+```html
+/*vue*/
+<template>
+    <div>
+      <div class='skeleton'>
+        <div class='bone bone-type-image'></div>
+      <div>
+    </div>
+</template>
+
+<script>
+    export default {
+    }
+</script>
+```

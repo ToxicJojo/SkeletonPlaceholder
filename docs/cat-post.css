@@ -31,3 +31,24 @@ img.avatar {
   border-radius: 50%;
 }
 
+
+/* Twitch */
+.stream {
+  padding: 20px;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.12), 0 1px 6px 0 rgba(0,0,0,0.12);
+  background-color: white;
+}
+
+.stream-info {
+  display: flex;
+  margin-top: 10px;
+}
+
+.stream .bone.player {
+  width: 100%;
+  height: 250px;
+}
+
+img.profile-pic {
+  margin-right: 20px;
+}

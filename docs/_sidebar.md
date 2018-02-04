@@ -3,8 +3,8 @@
   - [Quick start](quickstart.md)
 
 - Tutorials
-  - [Placeholder from scratch](scratch.md)
   - [Transform existing UI into a placeholder](existing.md)
+  - [Examples](exmaples.md)
 
 
 - Guide
@@ -15,7 +15,6 @@
   - [Multiline Text](multiline.md)
   - [Heading](heading.md)
   - [Image](image.md)
-
 
 - Development
   - [Setup](setup.md)
