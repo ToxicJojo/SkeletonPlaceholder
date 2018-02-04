@@ -90,11 +90,21 @@ You can change the color of the bones within a skeleton. Add the `skeleton-color
 
 ## Animation
 
-The skeleton supports animation to indicate the loading of data. Add the class `skeleton-animation-pulse` to create a pulsing skeleton.
+The skeleton supports animation to indicate the loading of data. There are different animations avaiable.
+
+- `skeleton-animation-pulse`
+- `skeleton-animation-shimmer`
+
+
+Add the respective class to the skeleton.
 
 
 ```html
 <div class='skeleton skeleton-animation-pulse'>
+  <div class='bone bone-type-multiline'></div>
+</div>
+
+<div class='skeleton skeleton-animation-shimmer'>
   <div class='bone bone-type-multiline'></div>
 </div>
 ```
@@ -104,6 +114,22 @@ The skeleton supports animation to indicate the loading of data. Add the class `
 <template>
     <div>
       <div class='skeleton skeleton-animation-pulse'>
+        <div class='bone bone-type-multiline'></div>
+      </div>
+    </div>
+</template>
+
+<script>
+    export default {
+    }
+</script>
+```
+
+```html
+/*vue*/
+<template>
+    <div>
+      <div class='skeleton skeleton-animation-shimmer'>
         <div class='bone bone-type-multiline'></div>
       </div>
     </div>
