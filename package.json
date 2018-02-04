@@ -10,6 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --compress --config config/webpack.dev.js",
+    "prod": "webpack-dev-server --compress --config config/webpack.prod.js",
     "docs": "docsify serve ./docs & webpack --watch --config config/webpack.doc.js",
     "prepublish": "webpack --config config/webpack.prod.js"
   },

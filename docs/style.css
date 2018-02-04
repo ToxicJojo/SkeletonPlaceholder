@@ -25,6 +25,87 @@
   -webkit-animation: pulse 1.2s infinite ease-out;
           animation: pulse 1.2s infinite ease-out; }
 
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: -600px 0; }
+  100% {
+    background-position: 600px 0; } }
+
+@keyframes shimmer {
+  0% {
+    background-position: -600px 0; }
+  100% {
+    background-position: 600px 0; } }
+
+.skeleton-animation-shimmer.skeleton-color-grey .bone {
+  background-image: linear-gradient(90deg, #b0b0b0 8%, #c9c9c9 18%, #b0b0b0 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-turquoise .bone {
+  background-image: linear-gradient(90deg, #148f77 8%, #1abc9c 18%, #148f77 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-emerald .bone {
+  background-image: linear-gradient(90deg, #25a25a 8%, #2ecc71 18%, #25a25a 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-peter-river .bone {
+  background-image: linear-gradient(90deg, #217dbb 8%, #3498db 18%, #217dbb 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-amethyst .bone {
+  background-image: linear-gradient(90deg, #804399 8%, #9b59b6 18%, #804399 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-wet-asphalt .bone {
+  background-image: linear-gradient(90deg, #22303d 8%, #34495e 18%, #22303d 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-green-sea .bone {
+  background-image: linear-gradient(90deg, #107360 8%, #16a085 18%, #107360 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-nephritis .bone {
+  background-image: linear-gradient(90deg, #1e8449 8%, #27ae60 18%, #1e8449 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-belize-hole .bone {
+  background-image: linear-gradient(90deg, #20638f 8%, #2980b9 18%, #20638f 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-wisteria .bone {
+  background-image: linear-gradient(90deg, #703688 8%, #8e44ad 18%, #703688 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-midnight-blue .bone {
+  background-image: linear-gradient(90deg, #1a252f 8%, #2c3e50 18%, #1a252f 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-sun-flower .bone {
+  background-image: linear-gradient(90deg, #c29d0b 8%, #f1c40f 18%, #c29d0b 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-carrot .bone {
+  background-image: linear-gradient(90deg, #bf6516 8%, #e67e22 18%, #bf6516 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-alizarin .bone {
+  background-image: linear-gradient(90deg, #d62c1a 8%, #e74c3c 18%, #d62c1a 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-clouds .bone {
+  background-image: linear-gradient(90deg, #cfd9db 8%, #ecf0f1 18%, #cfd9db 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-concrete .bone {
+  background-image: linear-gradient(90deg, #798d8f 8%, #95a5a6 18%, #798d8f 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-orange .bone {
+  background-image: linear-gradient(90deg, #c87f0a 8%, #f39c12 18%, #c87f0a 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-pumkin .bone {
+  background-image: linear-gradient(90deg, #a04000 8%, #d35400 18%, #a04000 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-pomegranate .bone {
+  background-image: linear-gradient(90deg, #962d22 8%, #c0392b 18%, #962d22 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-silver .bone {
+  background-image: linear-gradient(90deg, #a1aab0 8%, #bdc3c7 18%, #a1aab0 33%); }
+
+.skeleton-animation-shimmer.skeleton-color-asbestos .bone {
+  background-image: linear-gradient(90deg, #667273 8%, #7f8c8d 18%, #667273 33%); }
+
+.skeleton-animation-shimmer .bone {
+  -webkit-animation: shimmer 1s infinite linear;
+          animation: shimmer 1s infinite linear;
+  background-image: linear-gradient(90deg, #b0b0b0 8%, #c9c9c9 18%, #b0b0b0 33%);
+  background-size: 1200px; }
+
 .skeleton .bone {
   background-color: #c9c9c9; }
   .skeleton .bone.width-half {
@@ -104,7 +185,7 @@
   display: block;
   width: 100%;
   position: relative;
-  background-color: inherit;
+  background: inherit;
   border-radius: inherit; }
 
 .skeleton .bone-type-text, .skeleton .bone-type-multiline, .skeleton .bone-type-heading {
@@ -187,7 +268,7 @@
       content: '';
       display: block;
       position: relative;
-      background-color: inherit;
+      background: inherit;
       border-radius: inherit;
       top: 1.5em;
       width: 50%; }
