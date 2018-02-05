@@ -30,13 +30,13 @@
   @include color {
     &.skeleton-color-#{$colorName} {
       .bone {
-        background-image: linear-gradient(90deg, darken($color, 10%) 8%, $color 18%, darken($color, 10%) 33%);
+        background-image: linear-gradient(90deg, $color 8%, darken($color, 10%) 18%, $color 33%);
       }
     }
   }
   .bone {
     animation: shimmer 1s infinite linear;
-    background-image: linear-gradient(90deg,darken(map-get($colors, grey), 10%) 8%,map-get($colors, grey) 18%, darken(map-get($colors, grey), 10%) 33%);
+    background-image: linear-gradient(90deg,map-get($colors, grey) 8%, darken(map-get($colors, grey), 10%) 18%, map-get($colors, grey) 33%);
     background-size: 1200px;
   }
 }
