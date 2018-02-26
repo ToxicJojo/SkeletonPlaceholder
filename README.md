@@ -44,7 +44,7 @@ Use our CDN to get the minified css
 
 ## Demo
 
-You can find a demo page with different use cases [here]().
+You can find a demo page with different use cases [here](https://toxicjojo.github.io/SkeletonPlaceholder/#/exmaples).
 
 
 ## Contributing
