@@ -29,7 +29,14 @@
       subMaxLevel: 2,
       auto2top: true,
       plugins: [
-        DemoBoxVue.create(jsResources, cssResources, bootCode)
+        DemoBoxVue.create(jsResources, cssResources, bootCode),
+        function (hook, vm) {
+          hook.beforeEach(function (html) {
+            return html
+              + '\n----\n'
+              + '<a href="https://johannesthiel.me" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Created by Johannes Thiel</a>'
+          })
+        }
       ],
     }
   </script>
