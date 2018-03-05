@@ -1,6 +1,6 @@
 # From existing UI
 
-Skeleton Placeholder was built to allow you to easily transform your existing UI to a placholder without having to recreate the layout. This saves you time and means any layout changes you make in the UI will also be reflected in the placholder. Once your data loads you can update the content and remove the `skeleton` class from the layout to show the content.
+Skeleton Placeholder was built to allow you to easily transform your existing UI to a placeholder without having to recreate the layout. This saves you time and means any layout changes you make in the UI will also be reflected in the placeholder. Once your data loads you can update the content and remove the `skeleton` class from the layout to show the content.
 
 ## Starting point
 
@@ -16,7 +16,7 @@ In this example we will work with a layout for a post in a cat social network. T
     <div class='post-info'>
       <div>
         <span>
-          Lily
+          Lilly
         </span>
         <span class='subtext'>
           shared a post 45min ago
@@ -47,7 +47,7 @@ In this example we will work with a layout for a post in a cat social network. T
     <div class='post-info'>
       <div>
         <span>
-          Lily
+          Lilly
         </span>
         <span class='subtext'>
           shared a post 45min ago

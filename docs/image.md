@@ -4,7 +4,7 @@ An image bone can be used to represent a image or other types of media like a vi
 
 ## Overview
 
-To create an image bone add the `bone-type-image` class to a bone. The image size will be based of the skeleton size. Alternatively you can manually set the image size in your css.
+To create an image bone add the `bone-type-image` class to a bone. The image size will be based off the skeleton size. Alternatively you can manually set the image size in your css.
 
 ```html
 <div class='skeleton'>
@@ -30,7 +30,7 @@ To create an image bone add the `bone-type-image` class to a bone. The image siz
 
 ## Styling
 
-Thre are three different styles of image avaiable.
+Thre are three different styles of image available.
 
 - Square - default
 - Rounded - `bone-style-rounded`

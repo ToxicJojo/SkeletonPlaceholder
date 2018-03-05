@@ -7,7 +7,7 @@ A bone represents a single element in a skeleton placeholder. To create a bone a
 
 ## Types
 
-Adding just the `bone` class won't display anything. You will need to add some type to the bone like `bone-type-text`. The types avaiable are:
+Adding just the `bone` class won't display anything. You will need to add some type to the bone like `bone-type-text`. The types available are:
 
 - `bone-type-text` A single line of text [learn more](/text.md)
 - `bone-type-multiline` Multiple lines of text [learn more](/multiline.md)

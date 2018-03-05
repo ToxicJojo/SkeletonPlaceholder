@@ -1,6 +1,6 @@
 # Skeleton
 
-Every placeholder needs to be placed inside a wrapper which is called skeleton. The placeholder elements are called bones. 
+Every placeholder needs to be placed inside a wrapper which is called a skeleton. The placeholder elements are called bones. 
 
 ## Basic Skeleton
 
@@ -11,7 +11,7 @@ To create a skeleton simply add the `skeleton` class to a container.
 </div>
 ```
 
-!> All elements inside a skeleton that are not bones will be set to `visibility: hidden`. This keeps the original layout but will only render the bones of a skeleton. 
+!> All elements inside a skeleton that are not bones will be set to `visibility: hidden`. This keeps the original layout and will only render the bones of a skeleton. 
 
 Removing `skeleton` from the container will remove all style added by the bones.
 
@@ -63,7 +63,7 @@ To change the sizes of the bones within a skeleton there are three different siz
 
 ## Color
 
-You can change the color of the bones within a skeleton. Add the `skeleton-color-{color}` class to the skeleton. The avaiable colors can be found [here](https://flatuicolors.com/). For example you could create a green skeleton using `skeleton-color-nephritis`.
+You can change the color of the bones within a skeleton. Add the `skeleton-color-{color}` class to the skeleton. The available colors can be found [here](https://flatuicolors.com/palette/defo). For example you could create a green skeleton using `skeleton-color-nephritis`.
 
 ```html
 <div class='skeleton skeleton-color-nephritis'>

@@ -1,5 +1,5 @@
 
-# Skeleton Placeholder <small>0.1.3</small>
+# Skeleton Placeholder <small>1.0.0</small>
 
 > A small css library to build skeleton placeholders.
 

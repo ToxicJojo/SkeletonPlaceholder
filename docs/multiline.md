@@ -29,7 +29,7 @@ To create a multiline bone add the `bone-type-multiline` class to a bone.
 ```
 
 Every multiline bone has three lines of 'text'. They inherit their color and size from the skeleton. 
-There are different styles of multiline bones avaiable depending on the content you want to display.
+There are different styles of multiline bones available depending on the content you want to display.
 
 ## Paragraph
 

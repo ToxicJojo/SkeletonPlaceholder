@@ -12,7 +12,7 @@ A skeleton is the wrapper for your placeholder. To create one just add the `skel
 
 ## Create a Bone
 
-The skeleton above is currently empty. Lets create a bone to fill it.
+The skeleton above is currently empty. Let's create a bone to fill it.
 
 
 ```html
