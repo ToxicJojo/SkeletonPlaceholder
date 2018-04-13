@@ -4,7 +4,7 @@
 
 - Tutorials
   - [Transform existing UI into a placeholder](existing.md)
-  - [Examples](exmaples.md)
+  - [Examples](examples.md)
 
 
 - Guide

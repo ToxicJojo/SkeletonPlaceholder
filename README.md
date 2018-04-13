@@ -22,7 +22,7 @@ The first thing you want to do is create a skeleton wrapper. With some bones in 
 </div>
 ```
 
-You can find the full documentation [here](https://toxicjojo.github.io/SkeletonPlaceholder/#/examples)
+You can find the full documentation [here](https://toxicjojo.github.io/SkeletonPlaceholder/#/)
 
 ## Installation
 
@@ -44,7 +44,7 @@ Use our CDN to get the minified css
 
 ## Demo
 
-You can find a demo page with different use cases [here](https://toxicjojo.github.io/SkeletonPlaceholder/#/exmaples).
+You can find a demo page with different use cases [here](https://toxicjojo.github.io/SkeletonPlaceholder/#/examples).
 
 
 ## Contributing
